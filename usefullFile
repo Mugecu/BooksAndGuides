@@ -71,7 +71,15 @@
 			https://github.com/reactiveui/refit
 	C#
 		https://medium.com/@jaiadityarathore/dotnet-core-threadpool-bef2f5a37888
-		
+		https://enterprisecraftsmanship.com/posts/exceptions-for-flow-control/
+		https://microsin.net/programming/pc/dot-net-stack-heap-value-reference-boxing-unboxing.html?ysclid=lx33smmlm1769304324
+		https://habr.com/ru/articles/165729/
+		https://www.rsdn.org/article/dotnet/values.xml
+		https://habr.com/ru/articles/452298/
+		https://jeremybytes.blogspot.com/2021/02/whats-difference-between-channel-and.html
+		https://habr.com/ru/articles/508726/
+		https://learn.microsoft.com/ru-ru/sql/relational-databases/search/full-text-search?view=sql-server-ver15
+
 	Общее про архитектуру
 		https://refactoring.guru/ru
 		https://medium.com/@bogdan.darjan/command-and-query-domain-table-of-contents-fb229602df5c
@@ -96,10 +104,13 @@
 			https://github.com/iammukeshm
 			https://codewithmukesh.com/project/aspnet-core-webapi-clean-architecture%E2%80%8B/
 			https://medium.com/c-sharp-progarmming/tutorial-net-5-clean-architecture-4cc900f7945b
+			https://habr.com/ru/companies/jugru/articles/571728/
 			
 			DDD
 				https://enterprisecraftsmanship.com/posts/domain-model-purity-completeness/
 				https://dev.to/tigrus/ddd-25co
+				https://habr.com/ru/amp/publications/431804/
+				https://enterprisecraftsmanship.com/posts/validation-and-ddd/
 		Возможно надо купить
 			https://howto.stringconcat.com/#start
 			
@@ -108,3 +119,42 @@
 		
 	Полезные блоги 
 		https://apolomodov.medium.com
+	Странички
+		ECMA- https://262.ecma-international.org/14.0/#sec-objects
+		С4- https://habr.com/ru/articles/565658/
+		IDEFo - https://ru.wikipedia.org/wiki/IDEF0
+		ARCHITECTURE - https://habr.com/ru/articles/659595/
+		DOC - 	https://github.com/RabotaRu/DocHub
+			https://dochub.info/docs/dochub.tables
+	Clojure
+		https://github.com/Otann/morse
+		https://github.com/braidchat/braid/tree/master/src/braid/popovers
+	JavaScript
+		https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/
+
+	FunctionalProgramming
+		https://blog.ploeh.dk/2018/01/15/unit-isomorphisms/
+		https://medium.com/@apneadiving/chain-service-objects-like-a-boss-35d0b83606ab
+		https://enterprisecraftsmanship.com/posts/functional-c-handling-failures-input-errors/
+		https://enterprisecraftsmanship.com/posts/functional-c-non-nullable-reference-types/
+	RailwayProgramming
+		https://habr.com/ru/articles/339606/
+		https://fsharpforfunandprofit.com/rop/
+		https://fsharpforfunandprofit.com/posts/against-railway-oriented-programming/
+
+	ComputerScince
+		https://bartoszmilewski.com/2014/11/24/types-and-functions/
+
+	ParallelAndConcurent
+		https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_ABA
+		https://alexeykalina.github.io/technologies/concurrency.html?ysclid=ls0tpr3v2h686206359
+		https://www.albahari.com/threading/part4.aspx#_Memory_Barriers_and_Volatility
+		https://blog.stephencleary.com/2013/11/there-is-no-thread.html
+		https://blog.stephencleary.com/2014/12/a-tour-of-task-part-6-results.html
+		https://learn.microsoft.com/ru-ru/archive/msdn-magazine/2005/october/understanding-low-lock-techniques-in-multithreaded-apps
+		https://joeduffyblog.com/2010/12/04/sayonara-volatile/
+
+	EventSourcing
+		https://medium.com/@dzoukr/event-sourcing-step-by-step-in-f-be808aa0ca18
+
+	ML - https://www.cursor.com/settings
