@@ -1,0 +1,45 @@
+class Result<T, E> {
+  private isSuccess: boolean;
+  private value?: T;
+  private error?: E;
+  
+  private constructor(isSuccess: boolean, value?: T, error?: E) {
+    this.isSuccess = isSuccess;
+    this.value = value;
+    this.error = error;
+  }
+
+  static success<T>(value: T): Result<T, undefined> {
+    return new Result<T, undefined>(true, value);
+  }
+  static error<E>(error: E): Result<undefined, E> {
+    return new Result<undefined, E>(false, undefined, error);
+  }
+
+  isSuccess(): boolean {
+    return this.isSuccess;
+  }
+  isFailure(): boolean {
+    return !this.isSuccess;
+  }
+  getValue(): T | undefined {
+    return this.value;
+  }
+  getError(): E | undefined {
+    return this.error;
+  }
+}
+
+function divide(a: number, b: number): Result<number, string> {
+  if (b === 0) {
+    return Result.error('Division by zero');
+  }
+  return Result.success(a / b);
+}
+
+const result = divide(10, 2);
+if (result.isSuccess()) {
+  console.log("Success:", result.getValue());
+} else {
+  console.error("Error:", result.getError());
+}
